@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #CD5C08; /* Light brown background color */
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 200px; /* Adjust the max-width as needed */
+    margin: 1px 1px 1px 100px;
+}
+
+.title {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.incentives {
+    flex: 1;
+    text-align: center;
+}
+
+.incentives h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.button {
+    margin-left: 10px;
+    margin: 1px 100px 1px 100px;
+}
+
+.learn-more {
+    background-color: #072541; /* Customize the button color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+    </style>
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="Task 1/images/toll brother image.png">
+        </div>
+        <div class="incentives">
+            <h3>Limited-time Incentives Available Now<sup>*</sup></h3>
+        </div>
+        <div class="button">
+            <div class="learn-more">LEARN MORE</div>
+        </div>
+    </div>
+</body>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols"; [
+      {
+        "description": "stock",
+        "proName": "NASDAQ:NFLX"
+      },
+      {
+        "description": "spot Crypto",
+        "proName": "BITSTAMP:BTCUSD"
+      },
+      {
+        "description": "forex",
+        "proName": "FX:EURUSD"
+      },
+      {
+        "description": "stock",
+        "proName": "NASDAQ:TSLA"
+      },
+      {
+        "description": "spot crypto",
+        "proName": "FXOPEN:XAUUSD"
+      },
+      {
+        "description": "",
+        "proName": "BITSTAMP:ETHUSD"
+      },
+      {
+        "description": "",
+        "proName": "OANDA:USDJPY"
+      },
+      {
+        "description": "",
+        "proName": "CME_MINI:MNQ1!"
+      },
+      {
+        "description": "",
+        "proName": "NSE:NIFTY1!"
+      }
+    ],
+    "showSymbolLogo"; true,
+    "colorTheme"; "light",
+    "isTransparent"; false,
+    "displayMode"; "adaptive",
+    "locale"; "en"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</html>
